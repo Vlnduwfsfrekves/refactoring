@@ -1,0 +1,36 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-text-color);
+}
+body.modal-open {
+    overflow: hidden;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+p,
+ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    margin: 0;
+    padding: 0;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  } 

@@ -1,0 +1,150 @@
+.section.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.container.nav{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+
+    color: var(--primary-text-color);
+}
+.logo span{
+    color: var(--accent-color);
+}
+
+nav{
+    margin-left: 93px;
+}
+
+.nav-list{
+    display: flex;
+}
+.nav-item:not(:first-child){
+    margin-left: 54px;
+}
+/* .nav-item:first-child{
+    margin-left: 0;
+} */
+.nav-link,
+.contact-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--primary-text-color);
+    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--accent-color);
+}
+
+.contacts-list{
+    display: flex;
+    margin-left: auto;
+}
+
+.contact-item:not(:first-child){
+    margin-left: 50px;
+}
+/* .contact-item:nth-child(2){
+    margin-left: 50px;
+} */
+.contact-link{
+    color: var(--secondary-text-color);
+}
+
+/* Секція герой */
+.case{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+.footer .hero-button{
+    height: 44px;
+    margin-top: 0px;
+}
+.l{
+    color: var(--thirdly-text-color);
+    font-size: 14px;}
+.input-foot{
+    margin-right: 10px;
+    width: 300px;
+    height: 44px;
+    background-color: var(--background-color);
+    border:1px solid var(--secondary-text-color);
+    padding: 18px;
+border-radius: 4px;
+outline: none;
+}
+.telegram{
+    position: absolute;
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+    bottom: 12px;
+    right: 70%;
+    color: var(--thirdly-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tell{
+    position: relative;
+}
+.jghk{
+    display: flex;
+    margin-top: 20px;
+}
+.tell{
+    padding-right: auto;
+    padding-left: 32px;
+}
+.hero-button{
+    display: inline-flex;
+    background-color: var(--accent-color);
+    color: var(--thirdly-text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+    border: none;
+    border-radius: 4px;
+
+    padding: 10px 24px;  
+    
+    cursor: pointer;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 1000ms; */
+}
+.telegram:hover .hero-button,
+.telegram:focus .hero-button{
+    background-color: aquamarine;
+    color: #2F303A;
+}
+.hero-button:hover,
+.hero-button:focus{
+    background-color: aquamarine;
+    color: #2F303A;
+
+}

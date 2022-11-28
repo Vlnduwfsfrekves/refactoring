@@ -1,0 +1,80 @@
+.footer .hero-button:hover .telegram,
+.footer .hero-button:focus .telegram{
+    color: #2F303A;
+}
+
+/* Модальне вікно і бекдроп */
+
+.prostoclass{
+    width: 448px;
+    height:120px ;
+}
+/* Форма модального вікна */
+
+
+/* Секція особливості */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    margin: -1px;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  } 
+.fetures{  
+    display: flex;
+    justify-content: space-between;
+}
+.fetures-item{
+    width: 270px;
+}
+
+.icon-box{
+    width: 270px;
+    background-color: #F5F4FA;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+}
+
+.fetures-icon{
+    width: 70px;
+    height: 70px;  
+}
+/* Чим ми займаємося */
+
+.app-list{
+    display: flex;
+}
+
+.app-item{
+    position: relative;
+}
+
+.app-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.thumb-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    width: 100%;
+    height: 70px;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    
+    background-color: rgba(47,48,58,.8);
+    color: var(--thirdly-text-color);
+}
